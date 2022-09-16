@@ -13,7 +13,6 @@
  * See http://opensource.org/licenses/alphabetical for full text.
  */
 
-import base64 from 'base-64';
 import{ NativeModules } from "react-native";
 
 var DB_STATE_INIT, DB_STATE_OPEN, READ_ONLY_REGEX, SQLiteFactory, SQLitePlugin, SQLitePluginTransaction, argsArray, dblocations, newSQLError, nextTick, root, txLocks;
